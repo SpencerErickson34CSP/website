@@ -15,7 +15,7 @@ function blurring()
     }
     progress.innerText = `${load}%`
 
-    
-    progress.style.opacity = 1
+
+    progress.style.opacity = 1 - load/100
     bg.style.filter = "blur(10px)"
 }

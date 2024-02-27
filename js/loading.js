@@ -1,5 +1,7 @@
 
 progress = document.querySelector('.progress')
 
-progress.innertext = "5%"
-console.log("HELLO")
+load = 0
+
+progress.innerText = `${load}%`
+progress.style.opacity =

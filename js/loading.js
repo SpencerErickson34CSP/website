@@ -17,5 +17,5 @@ function blurring()
 
 
     progress.style.opacity = 1 - load/100
-    bg.style.filter = "blur(10px)"
+    bg.style.filter = `blur(${30 - (load/100)*30}px)`
 }

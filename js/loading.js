@@ -14,5 +14,8 @@ function blurring()
         clearInterval(int)
     }
     progress.innerText = `${load}%`
+
+    
     progress.style.opacity = 1
+    bg.style.filter = "blur(10px)"
 }

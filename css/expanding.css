@@ -49,3 +49,8 @@ body
     margin: 0;
     opacity: 0;
 }
+
+.panel.active h3
+{
+    opacity: 1;
+}

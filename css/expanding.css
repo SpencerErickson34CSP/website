@@ -30,7 +30,7 @@ body
     border-radius: 50px;
     color: brown;
     cursor: pointer;
-    flex: 0.5;
+    flex: 0.01;
     margin: 10px;
     position: relative;
     transition: flex 1s ease-in;
@@ -38,7 +38,7 @@ body
 
 .panel.active
 {
-    flex: 5;
+    flex: 1;
 }
 
 .panel h3

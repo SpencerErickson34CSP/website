@@ -1,6 +1,12 @@
 
+*
+{
+    box-sizing: border-box:
+}
+
 body
 {
+    background-color: deepskyblue;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -23,5 +29,23 @@ body
     border-radius: 50px;
     color: brown;
     cursor: pointer;
-    flex: 0.5;
+    flex: 0.1;
+    margin: 10px;
+    position: relative;
+
+}
+
+.panel.active
+{
+    flex: 1;
+}
+
+.panel h3
+{
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
 }

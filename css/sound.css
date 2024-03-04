@@ -3,4 +3,16 @@
 body
 {
     background-color: red;
+    height: 100vh;
+    display: felx;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn
+{
+    background-color: grey;
+    font-size: 1.2rem;
+    
 }

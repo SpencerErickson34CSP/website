@@ -12,3 +12,8 @@ body
     padding-bottom: 50px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+.container
+{
+    max-width: 1200px;
+}

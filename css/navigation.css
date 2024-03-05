@@ -21,10 +21,10 @@ body
 
 .hero
 {
-    background-image: url(images/billy.jpg);
+    background-image: url(images/tripping.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -44,4 +44,28 @@ body
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     z-index: -1;
+}
+
+.hero h1
+{
+    font-size: 46px;
+    margin: 0 0 20px;
+}
+
+.hero p
+{
+    font-size: 20px;
+    letter-spacing: -4px;
+}
+
+.content h2, .content h3
+{
+    font-size: 150%;
+    margin: 20px 0;
+}
+
+.content p
+{
+    color: deepskyblue;
+    
 }

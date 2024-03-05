@@ -67,5 +67,6 @@ body
 .content p
 {
     color: deepskyblue;
-    
+    line-height: 30px;
+    letter-spacing: -5px;
 }

@@ -1,0 +1,28 @@
+
+:root
+{
+    --primary-color: #507ca3;
+    --secondary-color: #365d80;
+    --modal-duration: 1s;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+nav
+{
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}

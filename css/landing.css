@@ -133,7 +133,7 @@ button, input[type='submit']
     left: 0;
     right: 0;
     background-color: rgba(142, 152, 163, 0.7);
-    /* display: none; */
+    display: none;
 }
 
 .modal
@@ -143,4 +143,52 @@ button, input[type='submit']
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(9,9,9,0.3);
 }
+
+.modal-header
+{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px;
+}
+
+modal-header h3
+{
+    margin: 0;
+    border-bottom: 1px solid #333;
+}
+
+.modal-content
+{
+    padding: 20px;
+}
+
+.modal-form div
+{
+    margin: 15px 0;
+}
+
+.modal-form label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal-form .form-input
+{
+    padding: 8px;
+    width: 100%;
+}
+
+.close-btn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+}
+

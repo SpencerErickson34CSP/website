@@ -133,4 +133,14 @@ button, input[type='submit']
     left: 0;
     right: 0;
     background-color: rgba(142, 152, 163, 0.7);
+    /* display: none; */
+}
+
+.modal
+{
+    background-color: rgb(142, 152, 163);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

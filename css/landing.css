@@ -132,5 +132,5 @@ button, input[type='submit']
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #8e98a3;
+    background-color: rgba(142, 152, 163, 0.7);
 }

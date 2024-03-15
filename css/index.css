@@ -41,13 +41,13 @@ header h3
 .expect a
 {
     color: red;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .expect a:hover
 {
-    color: gold;
-    text-decoration: none;
+    text-decoration-style: wavy;
+    
 }
 
 .preview

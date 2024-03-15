@@ -5,3 +5,64 @@ body
     margin: 0;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+header
+{
+    background-color: #7b9ae8;
+    color: #f0304a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    padding-right: 150px;
+}
+
+header h3
+{
+    font-size: 30px;
+}
+
+
+.dropdown button
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 18px;
+    width: 200px;
+    height: 100%;
+    background-color:  #6c8cb8;
+    border-color: #8397c7;
+}
+
+expect
+{
+    display: block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    background-color: #8397c7;
+}
+
+.dropdown-content a
+{
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover
+{
+    color: white;
+    background-color: #5c76b8;
+}

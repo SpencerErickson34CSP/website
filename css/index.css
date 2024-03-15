@@ -47,12 +47,13 @@ header h3
 .expect a:hover
 {
     text-decoration-style: wavy;
-    
+    cursor: help;
 }
 
 .preview
 {
     height: 500px;
+    cursor: zoom-in;
 }
 
 .dropdown-content

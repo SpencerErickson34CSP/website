@@ -38,9 +38,21 @@ header h3
     display: block;
 }
 
+.expect a
+{
+    color: red;
+    text-decoration: none;
+}
+
+.expect a:hover
+{
+    color: gold;
+    text-decoration: none;
+}
+
 .preview
 {
-    height: 400px;
+    height: 500px;
 }
 
 .dropdown-content

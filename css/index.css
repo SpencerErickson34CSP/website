@@ -44,6 +44,11 @@ header h3
     text-decoration: underline;
 }
 
+.expect.preview
+{
+    
+}
+
 .expect a:hover
 {
     text-decoration-style: wavy;

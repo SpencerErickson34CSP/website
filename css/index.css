@@ -33,6 +33,11 @@ header h3
     border-color: #8397c7;
 }
 
+.dropdown button:hover
+{
+    cursor: grab;
+}
+
 .expect
 {
     display: block;
@@ -46,7 +51,7 @@ header h3
 
 .expect.preview
 {
-    
+
 }
 
 .expect a:hover

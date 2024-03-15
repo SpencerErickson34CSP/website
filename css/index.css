@@ -33,9 +33,14 @@ header h3
     border-color: #8397c7;
 }
 
-expect
+.expect
 {
     display: block;
+}
+
+.preview
+{
+    height: 400px;
 }
 
 .dropdown-content
